@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539817897879",
+    "project_id": "dpa2021-71738",
+    "storage_bucket": "dpa2021-71738.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539817897879:android:b11ead954e99381adb9ed2",
+        "android_client_info": {
+          "package_name": "dev.luischang.dpafirebase2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539817897879-816kkq207fkt54l4srigrid45bing2nu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOCEk5NV8HbzCQ_V5W3jWJwkYeQMDED1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539817897879-816kkq207fkt54l4srigrid45bing2nu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
