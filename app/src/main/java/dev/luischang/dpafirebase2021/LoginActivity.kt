@@ -26,7 +26,7 @@ class LoginActivity : AppCompatActivity() {
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         Toast.makeText(this, "Inicio Satisfactorio", Toast.LENGTH_LONG).show()
-                        startActivity(Intent(this, MainActivity::class.java))
+                        startActivity(Intent(this, PrincipalActivity::class.java))
                     } else {
                         Toast.makeText(this, "El correo y/o clave es incorrecto", Toast.LENGTH_LONG)
                             .show()

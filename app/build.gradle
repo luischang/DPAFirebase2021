@@ -30,6 +30,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    buildFeatures {
+        viewBinding true
+    }
+    configurations.all {
+        resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
+    }
 }
 
 dependencies {
@@ -41,6 +47,11 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:28.4.2')
     implementation 'com.google.firebase:firebase-firestore:23.0.4'
     implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
 
     testImplementation 'junit:junit:4.+'
